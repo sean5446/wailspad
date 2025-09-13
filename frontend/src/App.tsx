@@ -143,6 +143,11 @@ export default function App() {
             e.preventDefault();
             handleSave();
             break;
+          case "w":
+            e.preventDefault();
+            if (currentTab) handleCloseTab(currentTab);
+            break;
+          case "t":
           case "n":
             e.preventDefault();
             handleNewFile();
