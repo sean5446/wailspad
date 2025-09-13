@@ -1,4 +1,6 @@
-# wailspad
+# WailsPad
+
+<img src="screenshot.png" />
 
 ## Live Development
 
